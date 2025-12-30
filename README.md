@@ -40,37 +40,25 @@ Mean Length of Stay by Ethnic Category
 
 Figure 1 shows the top 15 ethnic categories ranked by mean length of hospital stay.
 
-Mean length of stay varied across ethnic categories
-
-Irish (White) and Caribbean (Black or Black British) groups showed higher average lengths of stay
-
-Differences may reflect variation in age structure, case mix, and admission pathways
+Mean length of stay varied across ethnic categories. Irish (White) and Caribbean (Black or Black British) groups showed higher average lengths of stay. Differences may reflect variation in age structure, case mix, and admission pathways. 
 
 Emergency Admission Proportion vs Mean Length of Stay
 
-The relationship between emergency admission proportion and mean length of stay is shown below.
-
-A positive association was observed between higher emergency admission proportions and longer average hospital stays
-
-Groups with a greater reliance on emergency admissions tended to have increased mean length of stay
-
-This pattern is consistent with higher clinical complexity typically associated with emergency care
+The relationship between emergency admission proportion and mean length of stay is shown in Figure 2.
+A positive association was observed between higher emergency admission proportions and longer average hospital stays. 
+Groups with a greater reliance on emergency admissions tended to have increased mean length of stay.
+This pattern is consistent with higher clinical complexity typically associated with emergency care.
  
  **Summary Statistics**
 
-Mean length of stay ranged approximately from 2.8 to 6.1 days across groups
-
-Emergency admissions accounted for a high proportion (>95%) of admissions across most ethnic categories
-
-Mean age varied substantially between groups, which may partially explain observed differences in length of stay
+Mean length of stay ranged approximately from 2.8 to 6.1 days across groups. Emergency admissions accounted for a high proportion (>95%) of admissions across most ethnic categories.
+Mean age varied substantially between groups, which may partially explain observed differences in length of stay.
 
 **Limitations**
 
 Analysis is based on aggregated data, preventing individual-level inference.
-
-No adjustment for comorbidities, diagnosis, or socioeconomic factors
-
-Observed associations are descriptive, not causal
+No adjustment for comorbidities, diagnosis, or socioeconomic factors.
+Observed associations are descriptive, not causal.
 
 **Conclusion**
 
