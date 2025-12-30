@@ -115,3 +115,22 @@ The findings illustrate the value of routinely collected administrative data for
 - `mean_los_by_ethnicity_top15.png` — Figure 1: Mean length of stay by ethnic category  
 - `emergency_prop_vs_mean_los.png` — Figure 2: Emergency admission proportion vs length of stay  
 - `ethnicity_los_summary.csv` — Summary statistics table  
+
+
+<p align="center">
+  <img src="mean_los_by_ethnicity_top15.png" width="700">
+</p>
+
+<p align="center">
+  <em>Figure 1. Mean length of stay by ethnic category (top 15).</em>
+</p>
+
+---
+
+<p align="center">
+  <img src="emergency_prop_vs_mean_los.png" width="600">
+</p>
+
+<p align="center">
+  <em>Figure 2. Emergency admission proportion vs mean length of stay.</em>
+</p>
