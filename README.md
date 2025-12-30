@@ -52,6 +52,13 @@ Figure 1 presents the top 15 ethnic categories ranked by mean length of hospital
 
 Mean length of stay varied across ethnic categories. **Irish (White)** and **Caribbean (Black or Black British)** groups exhibited higher average lengths of stay compared with other groups. These differences may reflect variation in **age structure**, **case mix**, and **admission pathways**, rather than ethnicity itself.
 
+
+### Figure 1. Mean Length of Stay by Ethnic Category
+
+The figure below shows the top 15 ethnic categories ranked by mean length of hospital stay.
+
+![Mean length of stay by ethnic category](mean_los_by_ethnicity_top15.png)
+
 ---
 
 ### Emergency Admission Proportion and Length of Stay
@@ -59,6 +66,12 @@ Mean length of stay varied across ethnic categories. **Irish (White)** and **Car
 Figure 2 illustrates the relationship between emergency admission proportion and mean length of stay.
 
 A **positive association** was observed between higher emergency admission proportions and longer average hospital stays. Ethnic groups with a greater reliance on emergency admissions tended to experience increased mean length of stay. This pattern is consistent with the higher clinical complexity and acuity typically associated with emergency care.
+
+### Figure 2. Emergency Admission Proportion vs Mean Length of Stay
+
+This scatter plot illustrates the relationship between the proportion of emergency admissions and mean length of hospital stay across ethnic categories.
+
+![Emergency admission proportion vs mean length of stay](emergency_prop_vs_mean_los.png)
 
 ---
 
