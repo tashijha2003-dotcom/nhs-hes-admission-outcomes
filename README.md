@@ -53,9 +53,10 @@ Mean length of stay varied across ethnic categories. **Irish (White)** and **Car
 
 ### Figure 1. Mean Length of Stay by Ethnic Category
 
-The figure below shows the top 15 ethnic categories ranked by mean length of hospital stay.
 
 ![Mean length of stay by ethnic category](mean_los_by_ethnicity_top15.png)
+
+The figure shows the top 15 ethnic categories ranked by mean length of hospital stay.
 
 ---
 
@@ -67,9 +68,9 @@ A **positive association** was observed between higher emergency admission propo
 
 ### Figure 2. Emergency Admission Proportion vs Mean Length of Stay
 
-This scatter plot illustrates the relationship between the proportion of emergency admissions and mean length of hospital stay across ethnic categories.
-
 ![Emergency admission proportion vs mean length of stay](emergency_prop_vs_mean_los.png)
+
+This scatter plot illustrates the relationship between the proportion of emergency admissions and mean length of hospital stay across ethnic categories.
 
 ---
 
