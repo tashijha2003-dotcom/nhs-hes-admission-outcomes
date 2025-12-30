@@ -1,92 +1,104 @@
-**NHS Hospital Episode Statistics: Admission Outcomes by Ethnicity**
- 
- **Overview**
-This project presents a descriptive analysis of publicly available NHS Hospital Episode Statistics (HES) Admitted Patient Care data to explore variation in hospital length of stay and admission type across ethnic categories in England.
+# NHS Hospital Episode Statistics: Admission Outcomes by Ethnicity
 
-Using aggregated, anonymised data, the analysis focuses on population-level patterns rather than individual-level outcomes, providing insight into how admission pathways and demographic structure may relate to hospital resource utilisation.
-  
-   **Aim :**
-To examine differences in mean length of hospital stay across ethnic categories and to explore the relationship between emergency admission proportion and length of stay using aggregate NHS HES data.
-   
-   **Data Source**
-   
-NHS Hospital Episode Statistics (HES)
+## Overview
 
-Admitted Patient Care (APC) activity tables.
+This project presents a descriptive analysis of publicly available **NHS Hospital Episode Statistics (HES)** Admitted Patient Care data, examining variation in hospital length of stay and admission type across ethnic categories in England.
 
-Reporting year: 2024–25
+Using aggregated, anonymised administrative data, the analysis focuses on **population-level patterns** rather than individual-level outcomes. The study provides insight into how admission pathways and demographic structure may be associated with hospital resource utilisation across different ethnic groups.
 
-Data accessed in aggregated, publicly available format.
+---
 
-   **Methods**
+## Aim
 
-Retrospective observational analysis of aggregate HES data
+The aim of this analysis was to:
 
-Data imported and cleaned using Python (pandas)
+- Examine differences in **mean length of hospital stay** across ethnic categories  
+- Explore the relationship between **emergency admission proportion** and **length of stay**  
 
-Admissions grouped by ethnic category
+using aggregate NHS HES Admitted Patient Care data.
 
-Emergency admission proportion calculated as:
-Emergency admissions ÷ (Emergency + Elective admissions)
+---
 
-Descriptive statistics used to summarise:
-Mean length of stay, Median length of stay, Mean age, Emergency admission proportion
+## Data Source
 
-Visualisations produced using matplotlib and seaborn
+- **NHS Hospital Episode Statistics (HES)**  
+- Admitted Patient Care (APC) activity tables  
+- Reporting year: **2024–25**  
+- Data accessed in **publicly available, aggregated format**
 
- **Key Results**
+---
 
-Mean Length of Stay by Ethnic Category
+## Methods
 
-Figure 1 shows the top 15 ethnic categories ranked by mean length of hospital stay.
+- Retrospective observational analysis of aggregate HES data  
+- Data imported, cleaned, and processed using **Python (pandas)**  
+- Admissions grouped by **ethnic category**  
+- Emergency admission proportion calculated as:  
+  **Emergency admissions ÷ (Emergency + Elective admissions)**  
+- Descriptive statistics used to summarise:
+  - Mean length of stay  
+  - Median length of stay  
+  - Mean age  
+  - Emergency admission proportion  
+- Data visualisations produced using **matplotlib** and **seaborn**
 
-Mean length of stay varied across ethnic categories. Irish (White) and Caribbean (Black or Black British) groups showed higher average lengths of stay. Differences may reflect variation in age structure, case mix, and admission pathways. 
+---
 
-Emergency Admission Proportion vs Mean Length of Stay
+## Key Results
 
-The relationship between emergency admission proportion and mean length of stay is shown in Figure 2.
-A positive association was observed between higher emergency admission proportions and longer average hospital stays. 
-Groups with a greater reliance on emergency admissions tended to have increased mean length of stay.
-This pattern is consistent with higher clinical complexity typically associated with emergency care.
- 
- **Summary Statistics**
+### Mean Length of Stay by Ethnic Category
 
-Mean length of stay ranged approximately from 2.8 to 6.1 days across groups. Emergency admissions accounted for a high proportion (>95%) of admissions across most ethnic categories.
-Mean age varied substantially between groups, which may partially explain observed differences in length of stay.
+Figure 1 presents the top 15 ethnic categories ranked by mean length of hospital stay.
 
-**Limitations**
+Mean length of stay varied across ethnic categories. **Irish (White)** and **Caribbean (Black or Black British)** groups exhibited higher average lengths of stay compared with other groups. These differences may reflect variation in **age structure**, **case mix**, and **admission pathways**, rather than ethnicity itself.
 
-Analysis is based on aggregated data, preventing individual-level inference.
-No adjustment for comorbidities, diagnosis, or socioeconomic factors.
-Observed associations are descriptive, not causal.
+---
 
-**Conclusion**
+### Emergency Admission Proportion and Length of Stay
 
-This analysis demonstrates meaningful variation in hospital length of stay across ethnic categories within NHS Admitted Patient Care data. Groups with higher proportions of emergency 
-admissions tended to experience longer average hospital stays, highlighting the importance of admission pathways when interpreting population-level hospital utilisation patterns.
+Figure 2 illustrates the relationship between emergency admission proportion and mean length of stay.
 
-The findings emphasise the value of routinely collected administrative data for health services research while underscoring the need for cautious interpretation when individual-level clinical detail is unavailable.
+A **positive association** was observed between higher emergency admission proportions and longer average hospital stays. Ethnic groups with a greater reliance on emergency admissions tended to experience increased mean length of stay. This pattern is consistent with the higher clinical complexity and acuity typically associated with emergency care.
 
- **Tools Used**
+---
 
-Python
+### Summary Statistics
 
-pandas
+- Mean length of stay ranged approximately from **2.8 to 6.1 days** across ethnic categories  
+- Emergency admissions accounted for a **high proportion (>95%)** of admissions in most groups  
+- Mean age varied substantially between groups, which may partially explain observed differences in length of stay  
 
-matplotlib
+---
 
-seaborn
+## Limitations
 
-Jupyter Notebook
+- Analysis is based on **aggregated data**, precluding individual-level inference  
+- No adjustment for comorbidities, diagnosis, or socioeconomic factors  
+- Observed associations are **descriptive rather than causal**
 
- **Repository Contents**
+---
 
-01_hes_analysis.ipynb — Full analysis notebook
+## Conclusion
 
-mean_los_by_ethnicity_top15.png — Figure 1: Mean length of stay
+This analysis demonstrates meaningful variation in hospital length of stay across ethnic categories within NHS Admitted Patient Care data. Groups with higher proportions of emergency admissions tended to experience longer average hospital stays, highlighting the importance of **admission pathway** and **demographic structure** when interpreting population-level hospital utilisation patterns.
 
-emergency_prop_vs_mean_los.png — Figure 2: Emergency admissions vs LOS
+The findings illustrate the value of routinely collected administrative data for health services research, while underscoring the need for cautious interpretation when individual-level clinical detail is unavailable.
 
-ethnicity_los_summary.csv — Summary statistics table
+---
 
-- seaborn
+## Tools Used
+
+- Python  
+- pandas  
+- matplotlib  
+- seaborn  
+- Jupyter Notebook  
+
+---
+
+## Repository Contents
+
+- `01_hes_analysis.ipynb` — Full analysis notebook  
+- `mean_los_by_ethnicity_top15.png` — Figure 1: Mean length of stay by ethnic category  
+- `emergency_prop_vs_mean_los.png` — Figure 2: Emergency admission proportion vs length of stay  
+- `ethnicity_los_summary.csv` — Summary statistics table  
